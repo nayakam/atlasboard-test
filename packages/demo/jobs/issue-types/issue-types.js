@@ -11,12 +11,12 @@ module.exports = {
                 "time": "2016-06-14 08:01:40"
             }, {
                 "email": "Atlasboard Jira",
-                "message": " Sick",
+                "message": "Unwell, Will check emails",
                 "time": "2016-06-14 09:01:40"
             }, {
                 "email": "Nodejs Javascript",
                 "message": " Working from home",
-                "time": "2016-06-14 09:01:40"
+                "time": "2016-06-14 09:15:35"
             }, {
                 "email": "James Bond",
                 "message": "Waiting in beach side hotel :) _/\\_",

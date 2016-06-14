@@ -30,8 +30,7 @@ widget = {
         } else {
             console.log("<div> json.Team is " + json.Team);
         }
-        var table = '<table width="100%">';
-        //table += "<table class='item-container'>";
+        var table = '<table width="100%">';        
         table += "<tr> <th width=\"35%\"> Name </th><th width=\"25%\">  Time </th> <th width=\"40%\"> Status </th></tr>";
         if (json.Team.length) {
             json.Team.forEach(function(team) {
