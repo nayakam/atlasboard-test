@@ -1,20 +1,25 @@
 {
-  "title": "My first dashboard",
-  "titleVisible": false,
+    "title": "Team dashboard",
+    "titleVisible": true,
 
-  "description": "My first dashboard description goes here",
+    "description": "My first dashboard description goes here",
 
-  "layout": {
-    "customJS" : ["jquery.peity.js"],
-    "widgets" : [
-        {"row" : 1, "col" : 1, "width" : 4, "height" : 3, "widget" : "keyvaluelist", "job" : "issue-types",         "config": "issue-types"}
-      ]
-  },
+    "layout": {
+        "widgets": [{
+            "row": 1,
+            "col": 1,
+            "width": 4,
+            "height": 3,
+            "widget": "keyvaluelist",
+            "job": "issue-types",
+            "config": "issue-types"
+        }]
+    },
 
-  "config" : {
-    "issue-types": {
-      "interval": 5000,
-      "widgetTitle": "Team  status update"
+    "config": {
+        "issue-types": {
+            "interval": 30000,
+            "widgetTitle": "Team  status update"
+        }
     }
-  }
 }
