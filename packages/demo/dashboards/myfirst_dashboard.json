@@ -19,7 +19,8 @@
     "config": {
         "issue-types": {
             "interval": 30000,
-            "widgetTitle": "Team  status update"
+            "widgetTitle": "Team  status update",
+            "restAPIUrl": "https://necsparkbot.herokuapp.com/stats"
         }
     }
 }

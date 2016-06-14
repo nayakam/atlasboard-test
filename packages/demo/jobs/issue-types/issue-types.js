@@ -40,7 +40,7 @@ module.exports = {
         // logger.error('hello %s %d %j', 'world', 123, {foo:'bar'}, [1, 2, 3, 4], Object);
 
         var options = {
-            url: 'https://necsparkbot.herokuapp.com/stats1',
+            url: config.restAPIUrl,
             //  path: '/stats',
             method: 'GET'
         };
