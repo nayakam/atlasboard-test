@@ -13,8 +13,8 @@
 
   "config" : {
     "issue-types": {
-      "interval": 20000,
-      "widgetTitle": "Team Members Status Update"
+      "interval": 5000,
+      "widgetTitle": "Team  status update"
     }
   }
 }

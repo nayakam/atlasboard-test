@@ -38,7 +38,7 @@ module.exports = {
           logger.info('body : ' + body.replace(/(\r\n|\n|\r)/gm,""));
           logger.info('body : ' + body.replace(/\n/g,""));
           logger.info('body : ' + body.replace(/\n/g,"").replace(/\s/g,""));
-         jobCallback(null, {status: body.replace(/\n/g,"").replace(/\s/g,""), title: config.widgetTitle});
+         jobCallback(null, {status: body, title: config.widgetTitle});
     });
 
     //jobCallback(null, {status: status, title: config.widgetTitle});
