@@ -1,7 +1,3 @@
-var http = require('http');
-var cheerio = require('cheerio');
-var Client = require('node-rest-client').Client;
-
 module.exports = {
     onRun: function(config, dependencies, jobCallback) {
         status = {
