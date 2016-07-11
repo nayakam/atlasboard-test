@@ -1,3 +1,6 @@
 # Atlasboard-Test
 
-Just exploring atlasboard features. This is the README for my dashboard. Any info I need to pass on to other users will go here.
+Just exploring atlasboard features.
+
+#### Screen
+![alt tag](https://raw.githubusercontent.com/nayakam/atlasboard-test/master/packages/demo/screenshot/AtlasBoard-Test-TeamDashboard.png)
